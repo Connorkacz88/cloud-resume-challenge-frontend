@@ -1,0 +1,219 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  /* Add this CSS code to your style.css file or within a <style> tag in your HTML file */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+  background: #F2F2F2;
+  color: #323232;
+}
+
+img.avatar {
+    width: 200px; /* Adjust the size according to your preference */
+    height: 200px; /* Adjust the size according to your preference */
+    border-radius: 50%; /* This creates a circular shape */
+    object-fit: cover; /* Helps maintain the aspect ratio */
+}
+
+a {
+    color: #323232;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 32px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 20px;
+    padding: 24px 0;
+    border-bottom: 1px solid lightgrey;
+  }
+
+  section:last-child {
+    border-bottom: none;
+  }
+
+  .section-title {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  /***********************************
+* =Main Info
+***********************************/
+
+
+.my-name {
+    font-size: 48px;
+    line-height: 1;
+  }
+  
+  .my-title {
+    font-size: 24px;
+    font-weight: 300;
+    color: #236FB2;
+  }
+
+  .links {
+    display: flex;
+    margin: 10px 0 20px 0;
+  }
+  
+  .link-item {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+
+  /***********************************
+* =Experience
+***********************************/
+
+.job {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid lightgrey;
+  }
+  
+  .job:last-child {
+    border-bottom: none;
+  }
+  
+  .job-title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .job-company {
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  /***********************************
+* =Skills
+***********************************/
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 24px;
+  }
+  
+  .skills-container ul {
+    margin-left: 20px;
+    list-style-type: disc;
+  }
+  
+  /***********************************
+* =Interests
+***********************************/
+
+.interests-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 24px;
+  }
+  
+  .interests-container ul {
+    margin-left: 20px;
+    list-style-type: disc;
+  }
+  
+   /***********************************
+* =Eduacation
+***********************************/
+
+/* Add this to your style.css file */
+
+/* Add this to your style.css file */
+
+/* Add this to your style.css file */
+
+/* Add this to your style.css file */
+
+.section {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.school {
+    margin-top: 10px;
+}
+
+.school-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.school-name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.major-title {
+    color: #555;
+}
+
+.school-dates,
+.gpa-score {
+    margin-top: 10px; /* Increased space between major name and dates or GPA */
+}
+
+.school-details {
+    margin-top: 20px; /* Increase the top margin */
+}
+
+/* Style for the relevant coursework list */
+.school-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.school-details p {
+    margin-bottom: 10px; /* Increase the spacing between paragraphs */
+}
+
+.school-details li {
+    margin-bottom: 10px; /* Increase the spacing between list items */
+}
+
+.school-details strong {
+    font-weight: bold; /* Bold the "Relevant Coursework" text */
+}
+
+.course-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-bottom: 24px;
+}
+
+.course-container ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
